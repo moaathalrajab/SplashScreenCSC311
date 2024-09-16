@@ -37,7 +37,7 @@ public class Launcher extends Application {
         splash.setViewport(new Rectangle2D(100,0,SPLASH_WIDTH,SPLASH_HEIGHT));
         loadProgress = new ProgressBar();
         loadProgress.setPrefWidth(SPLASH_WIDTH);
-        progressText = new Label("Will find friends for peanuts . . .");
+        progressText = new Label("Will find courses . . .");
         splashLayout = new VBox();
         splashLayout.getChildren().addAll(splash, loadProgress, progressText);
         progressText.setAlignment(Pos.CENTER);
